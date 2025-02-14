@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
 public class Upercase {
-   public Upercase() {
-   }
 
    public static void main(String[] var0) {
       Scanner var1 = new Scanner(System.in);
