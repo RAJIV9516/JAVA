@@ -37,12 +37,16 @@ public class One{
     // }
 
 
-    int size=0;
+    int size;
     System.out.println("enter size of an array");
     size=obj.nextInt();
     int arr[]=new int[size];
     for(int i=0; i<arr.length;++i){
         arr[i]=obj.nextInt();   
+    }
+      for(int i:arr){
+        System.out.println(i);
+
     }
 }
 }
